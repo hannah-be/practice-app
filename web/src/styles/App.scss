@@ -1,0 +1,14 @@
+@import "variables.scss";
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: $primary-red;
+}
+
+p {
+  font-size: 20px;
+  font-family: $main-font;
+}
