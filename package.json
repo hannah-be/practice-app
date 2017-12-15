@@ -1,0 +1,19 @@
+{
+  "name": "practice-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.7"
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "seed": "node src/models/seeds.js",
+    "drop": "node src/models/drop.js"
+  }
+}

@@ -1,0 +1,24 @@
+@base_url = http://localhost:8000
+
+
+###
+GET {{base_url}}/attempts
+
+###
+POST {{base_url}}/attempts
+Content-Type: application/json
+
+{
+  "name": "I'm trying!"
+}
+
+###
+DELETE {{base_url}}/attempts/XXXX
+
+###
+PATCH {{base_url}}/attempts/XXXX
+Content-Type: application/json
+
+{
+  "name": ""
+}
