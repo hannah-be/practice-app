@@ -35,4 +35,5 @@ module.exports = mongoose
 - Add in a schema for the model using the Mongoose functionality.
 - Create a seeds.js file in the model folder and add a seeds script to the package.json file.
 - Create an attempts.js file in the routes folder and establish an express server and create basic CRUD routes.
+- Created a back-end (api) and front-end (web) directory
 
